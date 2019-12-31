@@ -9,7 +9,7 @@
 ## Before We Start
 ### Building Qemu 3
 #### Getting the dependencies
-**YOU WILL NOT NEED TO DO THIS IF YOU ARE USING UBUNTU 19.10!!!**
+**YOU WILL NOT NEED TO DO THIS IF YOU ARE USING UBUNTU 19.10!!! YOU CAN JUST INSTALL QEMU NORMALLY!**
 Qemu 3 does not come on the Ubuntu (Bionic) repositories, so we will have to build it. To start off, you will have to open a text editor (as root/sudo) and edit the file `/etc/apt/sources.list`. Here you want to go to the very bottom, and uncomment (remove the hashtag) in the lines that say `deb-src`. Once that is done, you will want to run ``sudo apt update && sudo apt build-dep qemu`` and say yes to the apt confirmation.  
   
 Now we will want to install git, you can do this by running `sudo apt install git`.
