@@ -1,0 +1,24 @@
+site_name: "Evan's vmra1n guide"
+theme:
+  name: null
+  custom_dir: mkdocs-material/material
+  language: en
+  palette:
+    primary: dark-blue
+    accent: dark-blue
+  font:
+    text: Roboto
+    code: Roboto Mono
+  logo:
+    icon: 'lock_open'
+  feature:
+    tabs: false
+nav:
+  - 'Getting Started': 'index.md'
+  - 'Dual-booting Linux': 'linux.md'
+  - 'Installing QEMU and enabling KVM': 'qemu.md'
+  - 'Re-Binding the USB Controller': 'iommu.md'
+  - 'Creating the VM': 'vm.md'
+  - 'Troubleshooting': 'troubleshooting.md'
+repo_name: '7OU/vmra1n-guide'
+repo_url: 'https://github.com/7OU/vmra1n-guide'
